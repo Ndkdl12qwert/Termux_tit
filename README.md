@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # tit - Termux Tools InsTall
 
 A lightweight CLI tool for installing/uninstalling APKs in Termux,
