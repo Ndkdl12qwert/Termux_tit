@@ -1,0 +1,26 @@
+.TH TIT 1 "May 2026" "Version 0.1" "Termux Tools"
+.SH NAME
+tit \- Termux Tools InsTall
+.SH SYNOPSIS
+.B tit
+\fIinstall\fR \fI<apk_file>\fR
+.br
+.B tit
+\fIuninstall\fR \fI<package_name>\fR
+.br
+.B tit
+\fIdevices\fR
+.SH DESCRIPTION
+\fBtit\fR is a lightweight tool to install/uninstall Android APKs
+from Termux, automatically choosing between \fBpm\fR (on-device)
+and \fBadb\fR (from host) based on runtime environment.
+.SH EXAMPLES
+.nf
+tit install ~/Download/app.apk
+tit uninstall com.termux
+tit devices
+.fi
+.SH LICENSE
+GPLv3+ — see full license at <https://www.gnu.org/licenses/gpl-3.0.txt>
+.SH AUTHOR
+OnicoX <q24_1@qq.com>
